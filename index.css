@@ -1,0 +1,110 @@
+.main-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: black;
+    height: 100vh;
+    margin-top:1rem;
+    border-radius: 35px;
+}
+
+.main-calculator-container{
+    height: 95%;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.top-calci{
+    height: 35%;
+    display: flex;
+    flex-direction: row;
+    align-items: flex-end;
+    justify-content: flex-end;
+}
+
+.body-calci{
+    height: 65%;
+}
+
+.calci-button{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height:80%;
+    width:80%;
+    border-radius: 100%;
+    margin: auto;
+    font-size: 1.7rem;
+    font-weight: 500;
+    cursor: pointer;
+}
+
+.sub-body-calci{
+    display: grid;
+    grid-template-columns: repeat(4,25%);
+    grid-template-rows: repeat(5,20%);
+    color: white;
+    height: 100%;
+    font-family:Helvetica;
+}
+
+.calci-button-zero{
+    grid-column: 1/3;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    padding-left: 20px;
+    height: 80%;
+    width: 85%;
+    border-radius:50px ;
+    margin: auto;
+    font-size: 1.7rem;
+    font-weight: 500;
+}
+
+.orange{
+    background-color: #ff9f0a;
+}
+
+.gray{
+    background-color: #a5a5a5;
+    color: black;
+}
+
+.dark-gray{
+    background-color: #333333;
+}
+
+.dark-gray:hover{
+    background-color: #646464;
+}
+
+.gray:hover{
+    background-color: #d7d7d7;
+}
+
+.equal:hover{
+    background-color: #fbc78d;
+    color:rgb(248, 241, 233) ;
+}
+
+.result{
+    color: white;
+    height: 30%;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    margin-bottom: 10px;
+}
+
+.result p{
+    font-size: 4rem;
+    padding: 0;
+    margin: 0;
+    margin-right: 25px;
+}
