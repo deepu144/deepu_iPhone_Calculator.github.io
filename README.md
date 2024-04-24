@@ -2,11 +2,12 @@
 A modern web-based calculator with a sleek design and intuitive user interface.
 
 ## Table of Contents
-# Overview
-# Features
-# Additional Functionalities
-# Keyboard Support
-# License
+
+- [Overview](#overview)
+- [Features](#features)
+- [Additional Functionalities](#addtionalfunctionalities)
+- [Keyboard Support](#keyboardsupport)
+- [License](#license)
 
 ## Overview
 Calculator 2.0 is a fully functional calculator web application designed to provide users with a seamless and intuitive calculation experience. Built with HTML, CSS, and JavaScript, this calculator offers a wide range of features to handle various mathematical tasks.
